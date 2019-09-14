@@ -2687,6 +2687,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team-area .thumb {
   position: relative;
+  width: 250px;
+  height: 250px;
+
 }
 
 .team-area .thumb div {
@@ -2711,6 +2714,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team-area .thumb img {
   display: block;
   width: 100%;
+  height: inherit;
+  object-fit: cover;
 }
 
 .team-area .thumb div span {
