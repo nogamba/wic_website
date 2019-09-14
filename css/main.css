@@ -2750,6 +2750,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* end team area */
 
+/* start sponsor area */
+
+.sponsor {
+  display: inline;
+  max-width: 25%;
+  max-height: 15%;
+  width: auto;
+  height: auto;
+}
+
+/* end sponsor area */
+
 .single-portfolio {
   margin-bottom: 30px;
   position: relative;
@@ -2849,24 +2861,24 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-img img {
-  -webkit-filter: grayscale(100%);
+  /*-webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
-  filter: grayscale(100%);
+  filter: grayscale(100%);*/
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
-.single-img img:hover {
+/*.single-img img:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
   -o-filter: grayscale(0%);
   filter: grayscale(0%);
-}
+}*/
 
 @media (max-width: 800px) {
   .single-img img {
