@@ -2336,13 +2336,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: -ms-linear-gradient(0deg, #5f36ff 0%, #b719f6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    background: -moz-linear-gradient(0deg, #fff 0%, #b719f6 100%);
+  background: -moz-linear-gradient(0deg, #fff 0%, #b719f6 100%);
 }
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .default-header, .dropdown-menu, .is-sticky .default-header, .banner-area, .single-gallery .thumb div, .single-feature:hover, .single-price:hover .bottom-sec, .single-price:hover .end-sec, .single-footer-widget .click-btn, .generic-banner {
-  background-image: -moz-linear-gradient(0deg, #f61daf 0%, #691cff 100%);
-  background-image: -webkit-linear-gradient(0deg, #f61daf 0%, #691cff 100%);
-  background-image: -ms-linear-gradient(0deg, #f61daf 0%, #691cff 100%);
+  background-image: -moz-linear-gradient(0deg, #fba4df 0%, #c3a4ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #fba4df 0%, #c3a4ff 100%);
+  background-image: -ms-linear-gradient(0deg, #fba4df 0%, #c3a4ff 100%);
 }
 
 .p1-gradient-color, .single-service a:hover, .footer-social a:hover i, .single-footer-widget .bb-btn {
@@ -2611,6 +2611,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  border-radius: 10px;
 }
 
 .single-feature a {
@@ -2624,6 +2625,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-feature:hover a, .single-feature:hover .title .lnr {
   color: #fff;
+}
+
+.single-feature li:hover {
+  background: -moz-linear-gradient(0deg, #5f36ff 0%, #b719f6 100%);
+  background: -webkit-linear-gradient(0deg, #5f36ff 0%, #b719f6 100%);
+  background: -ms-linear-gradient(0deg, #5f36ff 0%, #b719f6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: -moz-linear-gradient(0deg, #fff 0%, #fff 100%);
 }
 
 .single-feature .title .lnr {
@@ -2899,7 +2909,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .form-area {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 @media (max-width: 1024px) {
